@@ -29,7 +29,7 @@ env:
   NODE_ENV: production
   server: ./server
   client: ./client
-  MONGO_DB: ${{ secrets.GKE_MONGODB }}
+
 jobs:
   setup-build-publish-deploy:
     name: Setup, Build, Publish, and Deploy
